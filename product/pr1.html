@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product Page</title>
+    <style>
+      /* CSS for styling the page */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #F8EDE3;
+      }
+      header {
+        color: white;
+        background-color: #85586F;
+        padding: 20px;
+        text-align: center;
+      }
+      header h1 {
+        margin: 0;
+      }
+      .product-container {
+        color: #b69f91;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        padding-top: 100px;
+        padding-right: 200px;
+        padding-bottom: 100px;
+        padding-left: 200px;
+      }
+      .product-image {
+        width: 400px;
+        height: 400px;
+        object-fit: contain;
+        margin-right: 20px;
+      }
+      .product-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .product-name {
+        font-size: 24px;
+        margin: 10px 0;
+      }
+      .product-price {
+        font-size: 18px;
+        margin: 10px 0;
+      }
+      .product-description {
+        font-size: 14px;
+        margin: 10px 0;
+        text-align: justify;
+      }
+      .add-to-cart-button {
+        border-radius: 13px;
+        background-color: #DFD3C3; /* Green background */
+        color: #b69f91; /* White text */
+        padding: 15px 32px; /* Some padding */
+        text-align: center; /* Center the text */
+        text-decoration: none; /* Remove underline */
+        display: inline-block; /* Make the button inline */
+        font-size: 16px; /* Set the font size */
+        margin: 10px; /* Add some margin */
+        cursor: pointer; /* Add a pointer cursor on hover */
+      }
+      .add-to-cart-button:hover {
+        color: #DFD3C3;
+        background-color: #a79884;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Product Page</h1>
+    </header>
+    <div class="product-container">
+      <img class="product-image" src="../img/p1.jpg" alt="Product 1">
+      <div class="product-details">
+        <h2 class="product-name">Moonbeam</h2>
+        <p class="product-price">$9.99</p>
+        <p class="product-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A dignissimos iusto esse rerum voluptatem vitae, officia, tempore id quibusdam praesentium labore! Suscipit accusantium accusamus harum, omnis ullam expedita doloribus aperiam.
+        Repellendus debitis adipisci architecto qui nulla libero, reprehenderit veniam, velit ut ratione corporis laudantium facilis amet ullam nemo exercitationem eius iste sint quia voluptate consequuntur? Mollitia nulla asperiores doloribus ea.</p>
+        <button class="add-to-cart-button">Add to Cart</button>
+      </div>
+    </div>
+  </body>
+</html>

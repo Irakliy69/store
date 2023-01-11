@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F8EDE3;
+}
+header {
+  color: white;
+  background-color: #85586F;
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+}
+section {
+  color: #b69f91;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+.product {
+  width: 20%;
+  margin: 10px;
+  text-align: center;
+}
+.product img {
+  width: 100%;
+}
+.product h2 {
+  margin: 10px 0;
+}
+.product p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+/* CSS for the button animation */
+.animate-button {
+  border-radius: 13px;
+  background-color: #DFD3C3; /* Green background */
+  color: #b69f91; /* White text */
+  padding: 15px 32px; /* Some padding */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make the button inline */
+  font-size: 16px; /* Set the font size */
+  margin: 4px 2px; /* Add some margin */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  transition: transform 0.3s ease;
+}
+
+/* Add a hover effect */
+.animate-button:hover {
+  color: #DFD3C3;
+  background-color: #a79884;
+}
+
+/* Add an active effect for the clicked button */
+.animate-button.active {
+  transform: scale(1.2); /* Scale the button up */
+}
+.animate-button.active {
+    transition: transform 0.3s ease;
+}
+.p1 {
+  width: 400px;
+  height: 480px;
+  object-fit: cover;
+}
+.p2 {
+  width: 400px;
+  height: 480px;
+  object-fit: cover;
+}
